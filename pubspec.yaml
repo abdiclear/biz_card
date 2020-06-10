@@ -1,0 +1,39 @@
+name: biz_card
+description: A mobile business card. Based on LondonAppBrewery&#x27;s mi_card concept.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/le_portrait.jpg
+
+  fonts:
+    - family: ArchitectsDaughter
+      fonts:
+        - asset: fonts/ArchitectsDaughter-Regular.ttf
+    - family: Arvo
+      fonts:
+        - asset: fonts/Arvo-Bold.ttf
+        - asset: fonts/Arvo-BoldItalic.ttf
+        - asset: fonts/Arvo-Italic.ttf
+        - asset: fonts/Arvo-Regular.ttf
